@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Autorisation/static/css/main.bfaacb0c.chunk.css",
+    "main.js": "/Autorisation/static/js/main.dfdf4015.chunk.js",
+    "main.js.map": "/Autorisation/static/js/main.dfdf4015.chunk.js.map",
+    "runtime-main.js": "/Autorisation/static/js/runtime-main.d1b52ad4.js",
+    "runtime-main.js.map": "/Autorisation/static/js/runtime-main.d1b52ad4.js.map",
+    "static/css/2.44309f2b.chunk.css": "/Autorisation/static/css/2.44309f2b.chunk.css",
+    "static/js/2.6a5e39c2.chunk.js": "/Autorisation/static/js/2.6a5e39c2.chunk.js",
+    "static/js/2.6a5e39c2.chunk.js.map": "/Autorisation/static/js/2.6a5e39c2.chunk.js.map",
+    "index.html": "/Autorisation/index.html",
+    "precache-manifest.43988ab6e5ca8202a638e29914422cb4.js": "/Autorisation/precache-manifest.43988ab6e5ca8202a638e29914422cb4.js",
+    "service-worker.js": "/Autorisation/service-worker.js",
+    "static/css/2.44309f2b.chunk.css.map": "/Autorisation/static/css/2.44309f2b.chunk.css.map",
+    "static/css/main.bfaacb0c.chunk.css.map": "/Autorisation/static/css/main.bfaacb0c.chunk.css.map",
+    "static/js/2.6a5e39c2.chunk.js.LICENSE.txt": "/Autorisation/static/js/2.6a5e39c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1b52ad4.js",
+    "static/css/2.44309f2b.chunk.css",
+    "static/js/2.6a5e39c2.chunk.js",
+    "static/css/main.bfaacb0c.chunk.css",
+    "static/js/main.dfdf4015.chunk.js"
+  ]
+}
