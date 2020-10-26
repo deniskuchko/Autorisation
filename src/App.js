@@ -1,26 +1,24 @@
 import React from "react";
 
 import { Route, Switch } from "react-router-dom";
-import Profile from "./components/Profile/Profile";
-import LoginIn from "./components/Login/Login";
+import Profile from "./components/Profile";
+import Login from "./components/Login";
 
 import "./App.css";
 
-
-
+// eslint-disable-next-line react/prefer-stateless-function
 class App extends React.Component {
-
   render() {
-    
     return (
-      <Switch>
-        <Route  exact path='/' render={()=><LoginIn/>}/>
-        <Route path='/profile' render={()=><Profile/>}/>
-
-      </Switch>
+      // eslint-disable-next-line react/jsx-filename-extension
+      <div className="App">
+        <Switch>
+          <Route exact path="/" render={() => <Login />} />
+          <Route path="/profile" render={() => <Profile />} />
+        </Switch>
+      </div>
     );
   }
 }
-
 
 export default App;

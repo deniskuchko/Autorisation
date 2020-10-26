@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-props-no-spreading */
 import React from "react";
-import s from "./FormsControls.module.css";
 import { Field } from "redux-form";
+import s from "./FormsControls.module.css";
 
 export const FormControl = (Element) => ({
   input,
@@ -9,7 +11,7 @@ export const FormControl = (Element) => ({
 }) => {
   const hasError = touched && error;
   return (
-    <div className={s.formControl + " " + (hasError ? s.error : "")}>
+    <div className={`${s.formControl} ${hasError ? s.error : ""}`}>
       <Element {...input} {...props} />
 
       {hasError && <span>{error}</span>}
